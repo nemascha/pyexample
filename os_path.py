@@ -1,6 +1,9 @@
 # coding=utf-8
 
 import os
+import glob
+
+print('glob', glob.glob('e:\DataPad\Python\PythonDeveloper\*.csv*')) # Shows All Files in path
 
 a = os.path.split(__file__)
 print(a)
