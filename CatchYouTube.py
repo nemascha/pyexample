@@ -21,5 +21,5 @@ print('DEBUG: url is {}'.format(direct_url))
 # d.close()
 # f.close()
 
-#direct_urls = re.findall(r'"url_encoded_fmt_stream_map":.*url=(https:*?)(.+)', content)
+direct_urls = re.findall(r'"url_encoded_fmt_stream_map":.*url=(https:*?)(.+)', content)
 
