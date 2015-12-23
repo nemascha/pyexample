@@ -18,10 +18,9 @@ def selftest():
     class B(A): pass
     class C(A): pass
     class D(B, C): pass
-    class E: pass
+    class E(object): pass
     class F(D, E): pass
 
-    instansetree(B())
     instansetree(F())
 
 
